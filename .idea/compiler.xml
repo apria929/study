@@ -9,6 +9,8 @@
         <module name="cc-api" />
         <module name="cc-common" />
         <module name="cc-model" />
+        <module name="cc-mybatis" />
+        <module name="cc-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

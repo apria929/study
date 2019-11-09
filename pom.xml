@@ -12,6 +12,8 @@
         <module>cc-api</module>
         <module>cc-model</module>
         <module>cc-common</module>
+        <module>cc-mybatis</module>
+        <module>cc-redis</module>
     </modules>
 
 

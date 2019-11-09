@@ -1,0 +1,4 @@
+com/mybatis/douban/mapper/IDoubanMapper.class
+com/mybatis/douban/dao/DoubanDao.class
+com/mybatis/DefaultSessionFactory.class
+com/mybatis/Demo.class

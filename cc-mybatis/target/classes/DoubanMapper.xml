@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.douban.mapper.IDoubanMapper">
+    <!--comment-->
+    <!--<select id="getCommentByPageLimitBookId"  resultType="Alias_Comment" useCache="false">-->
+        <!--select * from Douban.comment where-->
+<!--&#45;&#45;         bookId = #{bookId ,jdbcType=VARCHAR }-->
+<!--&#45;&#45;         order  by commentId desc-->
+        <!--limit #{start} ,  #{limit}-->
+    <!--</select>-->
+
+    <select id="getCommentByPageLimitBookId"  resultType="Alias_Comment" useCache="false">
+        select * from Douban.comment 
+        limit 3;
+    </select>
+
+</mapper>

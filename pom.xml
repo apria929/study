@@ -18,6 +18,7 @@
         <module>cc-service</module>
         <module>ccl-cyp</module>
         <module>ccl-ljh</module>
+        <module>ccl-spring-demo</module>
     </modules>
 
 

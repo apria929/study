@@ -17,8 +17,8 @@ import java.util.List;
 public class Demo {
     public static void main(String[] args) {
 
-        IDoubanMapper mapper=new DoubanDao();
-        List<Comment> comments=mapper.getCommentByPageLimitBookId(1,2,"10451990");
+        IDoubanMapper mapper = new DoubanDao();
+        List<Comment> comments = mapper.getCommentByPageLimitBookId(1, 2, "10451990");
         System.out.println();
 
     }

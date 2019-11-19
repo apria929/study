@@ -22,7 +22,7 @@
         <!--    dk-api.log  -->
         <File>${log.base}dk-api.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>${log.base}nrs-communication.%d{yyyyMMdd}.log.zip</FileNamePattern>
+            <FileNamePattern>${log.base}cc-log.%d{yyyyMMdd}.log.zip</FileNamePattern>
         </rollingPolicy>
         <layout class="ch.qos.logback.classic.PatternLayout">
             <pattern>%date [%thread] %logger{1} %msg%n</pattern>

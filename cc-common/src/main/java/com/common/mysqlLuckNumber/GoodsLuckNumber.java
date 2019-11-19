@@ -15,7 +15,8 @@ public class GoodsLuckNumber {
     private Date startTime;
     private Date endTime;
 
-    public GoodsLuckNumber(){}
+    public GoodsLuckNumber() {
+    }
 
     public Date getEndTime() {
         return endTime;

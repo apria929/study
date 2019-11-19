@@ -16,23 +16,23 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  **/
 public class DoubanDao implements IDoubanMapper {
-  private  DefaultSessionFactory defaultSessionFactory=new DefaultSessionFactory();
+    private DefaultSessionFactory defaultSessionFactory = new DefaultSessionFactory();
 
     public List<Comment> getCommentByPageLimitBookId(int start, int limit, String bookId) {
         SqlSessionFactory sessionFactory = defaultSessionFactory.getSqlSessionFactory();
-        SqlSession session=null;
+        SqlSession session = null;
         try {
-            session=sessionFactory.openSession();
-            IDoubanMapper mapper=session.getMapper(IDoubanMapper.class);
-            List<Comment> comments=mapper.getCommentByPageLimitBookId(start,limit,bookId);
+            session = sessionFactory.openSession();
+            IDoubanMapper mapper = session.getMapper(IDoubanMapper.class);
+            List<Comment> comments = mapper.getCommentByPageLimitBookId(start, limit, bookId);
             session.commit();
             return comments;
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-            if (session!=null){
+            if (session != null) {
                 session.rollback();
             }
-        }finally {
+        } finally {
             session.clearCache();
             session.close();
         }

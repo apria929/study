@@ -14,10 +14,7 @@ import java.util.List;
 public interface IDoubanMapper {
 
     // comment
-      public List<Comment> getCommentByPageLimitBookId(@Param(value = "start") int start, @Param(value = "limit") int limit, @Param(value = "bookId") String bookId);
-
-
-
+    public List<Comment> getCommentByPageLimitBookId(@Param(value = "start") int start, @Param(value = "limit") int limit, @Param(value = "bookId") String bookId);
 
 
 }

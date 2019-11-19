@@ -1,4 +1,5 @@
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/interfaceDemo/InterfaceA.java
+/Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/utils/IdGenerator.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/factorypattern/Factory.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/baseType/DemoMain.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/abstractFactory/OracleLogin.java
@@ -29,6 +30,7 @@
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/simpleFactory/EasyFactory.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/connectPool/EsClientPoolFactory.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/abstractFactory/test_abstractFactory.java
+/Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/Algorithm/Algorithm.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/simpleFactory/Div.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/finalizeMeth/DemoMain.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/factorypattern/Client.java
@@ -38,12 +40,15 @@
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/alibabap3c/DemoMain.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/thread/ThreadpoolExecutordemo.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/thread/Main.java
+/Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/Algorithm/Main.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/mysqlLuckNumber/GoodsMysqlInit.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/abstractFactory/IFactory.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/extendMeth/Father.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/simpleFactory/Add.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/linkedList/SingleLinkedList.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/simpleFactory/Sub.java
+/Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/Algorithm/Demo.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/extendMeth/Son.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/desinpattern/abstractFactory/mysqlUser.java
+/Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/threadlocal/Main.java
 /Users/chenyahui/HandoverInterview/code/study/cc-common/src/main/java/com/common/finaDemo/DemoMain.java

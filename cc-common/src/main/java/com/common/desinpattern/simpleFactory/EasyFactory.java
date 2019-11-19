@@ -1,4 +1,5 @@
 package com.common.desinpattern.simpleFactory;
+
 import com.common.desinpattern.simpleFactory.*;
 
 public class EasyFactory {

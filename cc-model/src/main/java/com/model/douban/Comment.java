@@ -19,7 +19,9 @@ public class Comment {
     private String state;
     private String commentId;
 
-    public Comment(){}
+    public Comment() {
+    }
+
     public Comment(String doubanCommentId, String userId, double rate, String date, String comment, int agree, String bookId, String createdDate, String modifiedDate, String state, String commentId) {
         this.doubanCommentId = doubanCommentId;
         this.userId = userId;

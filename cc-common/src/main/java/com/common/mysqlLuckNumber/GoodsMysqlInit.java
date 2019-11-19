@@ -15,16 +15,16 @@ import java.util.List;
  **/
 public class GoodsMysqlInit {
     public static void main(String[] args) {
-        GoodsLuckNumber number=new GoodsLuckNumber();
+        GoodsLuckNumber number = new GoodsLuckNumber();
         number.setTotal(19);
         goodsInit(number);
     }
 
     /**
      * @apiNote 生成幸运码
-     * */
-    private static void goodsInit(GoodsLuckNumber goodsLuckNumber){
-        long total=goodsLuckNumber.getTotal();
+     */
+    private static void goodsInit(GoodsLuckNumber goodsLuckNumber) {
+        long total = goodsLuckNumber.getTotal();
         Connection con = null;
         try {
             /**
@@ -32,11 +32,11 @@ public class GoodsMysqlInit {
              * */
             con.setAutoCommit(false);
             PreparedStatement pst = con.prepareStatement("");
-            for (int i=0;i<total;i=i+5){
-                ArrayList<Integer> list=new ArrayList<>();
+            for (int i = 0; i < total; i = i + 5) {
+                ArrayList<Integer> list = new ArrayList<>();
 
-                for (int j=0;j<5&& i+j<total;j++){
-                    list.add(1000000+i+j);
+                for (int j = 0; j < 5 && i + j < total; j++) {
+                    list.add(1000000 + i + j);
                 }
                 Collections.shuffle(list);
                 /**
@@ -47,14 +47,14 @@ public class GoodsMysqlInit {
             con.setAutoCommit(true);
             pst.close();
             con.close();
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             try {
                 //事物回滚
                 con.rollback();
                 con.setAutoCommit(true);
                 con.close();
-            }catch (Exception e1){
+            } catch (Exception e1) {
                 e1.printStackTrace();
             }
         }
@@ -62,19 +62,34 @@ public class GoodsMysqlInit {
     }
 
 
-//    public List<String> getLuckCode(String goodsId,String userid,Long amount){
-//        String updateUserId = "UPDATE `lottery_number` SET `status` = 0,`user_id` = ?,`current_time`= ?  WHERE `issue_id` = ? AND `status`=1 LIMIT ? ";
-//        int rownum=jdbcTemplate.update(updateUserId, userId, currentTime, issueId, amount );
-//        if(rownum>0){//还有剩余有效购买码
-//            Object[] buyargs={issueId, userId ,currentTime};
-//            numberList = jdbcTemplate.query(QUERY + " WHERE `issue_id` = ? AND `status` = 0 AND `user_id` = ? AND `current_time`= ?",
-//                    buyargs, LotteryNumberMapper);
-//        }
-//
-//
-//    }
-
-
+    /**
+     * 通过商品issue_id（每期每个商品有唯一issue_id）来随机获取购买码(使用的购买码会设为失效状态)
+     *
+     * @param issueId
+     * @param amount  需要获取的购买码的数量
+     * @param userId
+     * @return LotteryNumber对象列表
+     * @author Nifury 2016-7-22
+     */
+    public List<GoodsLuckNumber> queryByNewIssueId2(Long issueId, Long amount, Long userId) {
+        List<GoodsLuckNumber> numberList = new ArrayList<GoodsLuckNumber>();
+        try {
+            long currentTime = System.currentTimeMillis();
+            String updateUserId = "UPDATE `lottery_number` SET `status` = 0,`user_id` = ?,`current_time`= ?  WHERE `issue_id` = ? AND `status`=1 LIMIT ? ";
+            /**
+             * sql update 更新幸运码
+             * */
+            int rownum = 0;
+            if (rownum > 0) {//还有剩余有效购买码
+                /**
+                 * 抢到了、逻辑处理
+                 * */
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return numberList;
+    }
 
 
 }

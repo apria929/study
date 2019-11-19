@@ -10,7 +10,7 @@ import java.util.LinkedList;
  **/
 public class DemoMain {
     public static void main(String[] args) {
-        LinkedList linkedList=new LinkedList();
-       
+        LinkedList linkedList = new LinkedList();
+
     }
 }

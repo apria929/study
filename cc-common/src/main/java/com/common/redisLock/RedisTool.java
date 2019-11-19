@@ -12,9 +12,10 @@ public class RedisTool {
 
     /**
      * 尝试获取分布式锁
-     * @param jedis Redis客户端
-     * @param lockKey 锁
-     * @param requestId 请求标识
+     *
+     * @param jedis      Redis客户端
+     * @param lockKey    锁
+     * @param requestId  请求标识
      * @param expireTime 超期时间
      * @return 是否获取成功
      */
@@ -33,8 +34,9 @@ public class RedisTool {
 
     /**
      * 释放分布式锁
-     * @param jedis Redis客户端
-     * @param lockKey 锁
+     *
+     * @param jedis     Redis客户端
+     * @param lockKey   锁
      * @param requestId 请求标识
      * @return 是否释放成功
      */

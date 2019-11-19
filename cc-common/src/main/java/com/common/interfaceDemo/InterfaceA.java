@@ -8,7 +8,8 @@ package com.common.interfaceDemo;
  **/
 public interface InterfaceA {
     void f();
-    public interface InterfaceB{
+
+    public interface InterfaceB {
         void f();
     }
 }

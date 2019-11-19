@@ -9,15 +9,15 @@ import java.util.ArrayList;
  * To change this template use File | Settings | File Templates.
  **/
 public class DemoMain {
-   private final static String ID="1";
-   private final String name="lily";
-   private final ArrayList<String> ary1=new ArrayList<String>();
+    private final static String ID = "1";
+    private final String name = "lily";
+    private final ArrayList<String> ary1 = new ArrayList<String>();
 
-    void say(){
+    void say() {
     }
 
     public static void main(String[] args) {
-        DemoMain demoMain=new DemoMain();
+        DemoMain demoMain = new DemoMain();
         demoMain.ary1.add("a");
 //        demoMain.ary1=new ArrayList<>();
         System.out.println(demoMain.ary1);

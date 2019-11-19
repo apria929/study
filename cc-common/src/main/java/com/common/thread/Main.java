@@ -11,9 +11,9 @@ import java.util.concurrent.*;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        ExecutorService executor= Executors.newCachedThreadPool();
+        ExecutorService executor = Executors.newCachedThreadPool();
         List<Future> futures = new ArrayList<>();
-        for (int i=0; i< 10; i++){
+        for (int i = 0; i < 10; i++) {
             Future future = executor.submit(() -> {
                 System.out.println(new Date() + "thread id is:" + Thread.currentThread().getId());
                 Thread.sleep(5000);
@@ -21,7 +21,7 @@ public class Main {
             });
             futures.add(future);
         }
-        for (Future future : futures){
+        for (Future future : futures) {
             future.get();
         }
         System.out.println("over");

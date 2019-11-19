@@ -24,7 +24,7 @@ public class DemoMain {
 
     @Test
     public void BigDecimal() {
-       BigDecimal g = new BigDecimal(0.1f);
+        BigDecimal g = new BigDecimal(0.1f);
         BigDecimal recommend1 = new BigDecimal("0.1");
         BigDecimal recommend2 = BigDecimal.valueOf(0.1);
         System.out.println(g);
@@ -32,7 +32,7 @@ public class DemoMain {
 
     @Test
     public void Hashmap() {
-        HashMap map=new HashMap();
+        HashMap map = new HashMap();
 
         System.out.println("junit");
     }

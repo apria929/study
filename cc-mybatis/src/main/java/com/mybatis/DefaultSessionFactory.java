@@ -8,6 +8,7 @@ import org.apache.ibatis.session.defaults.DefaultSqlSessionFactory;
 
 import java.io.IOException;
 import java.io.Reader;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,7 +20,8 @@ import org.slf4j.LoggerFactory;
  **/
 public class DefaultSessionFactory {
     public static Logger LOG = LoggerFactory.getLogger(DefaultSqlSessionFactory.class);
-    private  final static SqlSessionFactory sqlSessionFactory;
+    private final static SqlSessionFactory sqlSessionFactory;
+
     static {
         Reader reader = null;
         try {
@@ -30,7 +32,7 @@ public class DefaultSessionFactory {
         sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
     }
 
-    public  SqlSessionFactory  getSqlSessionFactory() {
+    public SqlSessionFactory getSqlSessionFactory() {
         return sqlSessionFactory;
     }
 }

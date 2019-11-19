@@ -7,7 +7,7 @@ package com.common.extendMeth;
  * To change this template use File | Settings | File Templates.
  **/
 public class Grandfather {
-    protected void say(){
+    protected void say() {
         System.out.println("Grandfather say");
     }
 }

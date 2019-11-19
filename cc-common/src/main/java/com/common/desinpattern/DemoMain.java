@@ -12,12 +12,12 @@ import com.common.desinpattern.simpleFactory.Operation;
  **/
 public class DemoMain {
     public static void main(String[] args) {
-        Add add=new Add();
-        add.getResult(1,1);
+        Add add = new Add();
+        add.getResult(1, 1);
 
-        Operation operation=new Add();
+        Operation operation = new Add();
         try {
-            operation.getResult(1,1);
+            operation.getResult(1, 1);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -26,7 +26,7 @@ public class DemoMain {
     }
 
 
-    private void demo(String type){
+    private void demo(String type) {
 
 
     }

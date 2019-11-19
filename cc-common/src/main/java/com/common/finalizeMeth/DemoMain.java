@@ -14,7 +14,7 @@ public class DemoMain {
     }
 
     public static void main(String[] args) {
-        DemoMain demoMain=new DemoMain();
+        DemoMain demoMain = new DemoMain();
         System.gc();
 
     }

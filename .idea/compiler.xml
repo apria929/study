@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cc-api" />
         <module name="cc-common" />
+        <module name="cc-ljh" />
         <module name="cc-model" />
         <module name="cc-mybatis" />
         <module name="cc-redis" />
@@ -17,8 +18,18 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+<<<<<<< HEAD
       <module name="cc-springcloud" target="1.5" />
       <module name="study" target="1.5" />
+=======
+      <module name="cc-api" target="1.5" />
+      <module name="cc-common" target="8" />
+      <module name="cc-ljh" target="1.5" />
+      <module name="cc-model" target="1.5" />
+      <module name="cc-mybatis" target="1.5" />
+      <module name="cc-redis" target="1.5" />
+      <module name="cc-study" target="1.5" />
+>>>>>>> 9e2e0f22338de8c3fe4f36e3a48d1dc227cb3a3e
     </bytecodeTargetLevel>
   </component>
 </project>

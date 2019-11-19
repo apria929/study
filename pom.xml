@@ -20,6 +20,20 @@
         <module>cc-spring</module>
 
 
+<<<<<<< HEAD
+=======
+    <groupId>cc-study</groupId>
+    <artifactId>cc-study</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>cc-api</module>
+        <module>cc-model</module>
+        <module>cc-common</module>
+        <module>cc-mybatis</module>
+        <module>cc-redis</module>
+        <module>cc-ljh</module>
+>>>>>>> 9e2e0f22338de8c3fe4f36e3a48d1dc227cb3a3e
     </modules>
 
 

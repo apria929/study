@@ -7,7 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cc-api" />
-        <module name="study" />
+        <module name="cc-common" />
+        <module name="cc-model" />
+        <module name="cc-mybatis" />
+        <module name="cc-redis" />
+        <module name="cc-redis2" />
+        <module name="cc-service" />
+        <module name="cc-spring" />
+        <module name="ccl-cyp" />
+        <module name="ccl-ljh" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

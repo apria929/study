@@ -14,12 +14,14 @@
         <module name="cc-redis2" />
         <module name="cc-service" />
         <module name="cc-spring" />
-        <module name="ccl-cyp" />
         <module name="ccl-ljh" />
         <module name="ccl-spring-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="cc-cyp" target="1.5" />
+      <module name="cc-ljh" target="1.5" />
+      <module name="ccl-cyp" target="1.5" />
       <module name="ccl-spring" target="1.5" />
     </bytecodeTargetLevel>
   </component>

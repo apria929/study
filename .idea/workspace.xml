@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f7dd3f-4aef-4974-a794-555d863b8d73" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ccl-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccl-spring/src/main/java/com/spring/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc-api/src/main/java/com/api/Cyp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-api/src/main/java/com/api/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cc-api/src/main/java/com/api/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +21,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -37,13 +40,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ccl-cyp/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -91,6 +94,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cpy.Demo" />
+      <module name="ccl-cyp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.api.Demo" />
       <module name="cc-api" />
@@ -131,10 +148,12 @@
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Demo (1)" />
       <item itemvalue="Application.Demo (2)" />
+      <item itemvalue="Application.Demo (3)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Demo (3)" />
         <item itemvalue="Application.Demo (2)" />
         <item itemvalue="Application.Demo (1)" />
       </list>
@@ -152,7 +171,7 @@
       <updated>1574158121250</updated>
       <workItem from="1574158124657" duration="243000" />
       <workItem from="1574159560669" duration="256000" />
-      <workItem from="1574251294600" duration="288000" />
+      <workItem from="1574251294600" duration="1153000" />
     </task>
     <servers />
   </component>

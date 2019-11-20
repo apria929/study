@@ -16,7 +16,6 @@
         <module>cc-redis</module>
         <module>cc-redis2</module>
         <module>cc-service</module>
-        <module>ccl-cyp</module>
         <module>ccl-ljh</module>
         <module>ccl-spring-demo</module>
     </modules>

@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>cc-study</artifactId>
-        <groupId>cc-study</groupId>
+        <artifactId>ccl-study</artifactId>
+        <groupId>ccl-study</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cc-mybatis</artifactId>
+    <artifactId>ccl-mybatis</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>
@@ -21,11 +21,7 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.8.0-beta2</version>
         </dependency>
-        <dependency>
-            <groupId>cc-study</groupId>
-            <artifactId>cc-model</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+
 
         <dependency>
             <groupId>mysql</groupId>
@@ -36,6 +32,12 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.46</version>
+        </dependency>
+        <dependency>
+            <groupId>ccl-study</groupId>
+            <artifactId>ccl-model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>

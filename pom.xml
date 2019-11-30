@@ -16,6 +16,7 @@
         <module>cc-redis2</module>
         <module>ccl-ljh</module>
         <module>ccl-spring-demo</module>
+        <module>cc-apria</module>
 
     </modules>
 

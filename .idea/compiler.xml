@@ -12,6 +12,7 @@
         <module name="ccl-ljh" />
         <module name="ccl-model" />
         <module name="ccl-mybatis" />
+        <module name="cc-apria" />
         <module name="ccl-common" />
         <module name="cc-spring" />
       </profile>

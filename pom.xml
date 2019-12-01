@@ -17,6 +17,7 @@
         <module>ccl-ljh</module>
         <module>ccl-spring-demo</module>
         <module>cc-apria</module>
+        <module>ccl-cyp</module>
 
     </modules>
 

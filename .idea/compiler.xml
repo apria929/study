@@ -6,44 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
+        <module name="cc-apria" />
         <module name="ccl-spring-demo" />
         <module name="cc-common" />
         <module name="ccl-ljh" />
         <module name="cc-model" />
         <module name="cc-mybatis" />
-        <module name="cc-service" />
+        <module name="ccl-cyp" />
         <module name="cc-api" />
-        <module name="cc-redis" />
         <module name="cc-redis2" />
-=======
-        <module name="ccl-api" />
-        <module name="ccl-spring-demo" />
-        <module name="ccl-redis2" />
-        <module name="ccl-ljh" />
-        <module name="ccl-model" />
-        <module name="ccl-mybatis" />
-        <module name="cc-apria" />
-        <module name="ccl-common" />
->>>>>>> 4474afadfd4add9a752f331ba1ff73a9132b5205
-        <module name="cc-spring" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="cc-api" target="1.5" />
-      <module name="cc-common" target="8" />
-      <module name="cc-cyp" target="1.5" />
-<<<<<<< HEAD
-=======
-      <module name="cc-ljh" target="1.5" />
-      <module name="cc-model" target="1.5" />
-      <module name="cc-mybatis" target="1.5" />
-      <module name="cc-redis" target="1.5" />
-      <module name="cc-redis2" target="1.5" />
-      <module name="cc-service" target="1.5" />
->>>>>>> 4474afadfd4add9a752f331ba1ff73a9132b5205
-      <module name="ccl-cyp" target="1.5" />
-      <module name="ccl-spring" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
